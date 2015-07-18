@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 {
   zerotierone = stdenv.mkDerivation rec {
     version = "1.0.2";
-    name = "zerotierone";
+    name = "zerotierone-${version}";
 
     src = fetchurl {
       url = "https://github.com/zerotier/ZeroTierOne/archive/${version}.tar.gz";
