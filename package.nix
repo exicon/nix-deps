@@ -1,7 +1,6 @@
 with import <nixpkgs> {};
-
 {
-  job = stdenv.mkDerivation rec {
+  zerotierone = stdenv.mkDerivation rec {
     version = "1.0.2";
     name = "zerotierone";
 
